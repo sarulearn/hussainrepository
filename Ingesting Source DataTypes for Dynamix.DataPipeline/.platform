@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "Ingesting Source DataTypes for Dynamix"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "15f1c4eb-c12c-b683-42d4-54b24fb598c0"
+  }
+}
