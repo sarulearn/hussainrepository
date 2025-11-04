@@ -2,7 +2,7 @@
   "properties": {
     "activities": [
       {
-        "name": "Copy data1",
+        "name": "basic-orgaauth",
         "type": "Copy",
         "dependsOn": [],
         "policy": {
@@ -55,6 +55,14 @@
             }
           },
           "enableStaging": false
+        }
+      },
+      {
+        "name": "Wait1",
+        "type": "Wait",
+        "dependsOn": [],
+        "typeProperties": {
+          "waitTimeInSeconds": 1
         }
       }
     ]
